@@ -1,0 +1,10 @@
+name: integration
+on:
+  push:
+    branches:
+      - main
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "running integration tests!"
